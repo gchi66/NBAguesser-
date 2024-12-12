@@ -306,6 +306,7 @@ document.addEventListener("DOMContentLoaded", function(){
         localStorage.setItem("daily_correct_guesses", 0);
         localStorage.setItem("total_daily_guesses", 0);
         localStorage.setItem("last_reset_date", now.toDateString());
+        location.reload();
       }
     }
     resetValuesIfNewDay();
